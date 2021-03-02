@@ -1,1 +1,0 @@
-a = 'add some string'
