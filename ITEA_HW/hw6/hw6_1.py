@@ -1,3 +1,42 @@
+def summ():
+    if b == '+':
+        return a + c
+    print(summ())
+
+
+def subtr():
+    if b == '-':
+        return a - c
+    print(subtr())
+
+
+def mult():
+    if b == '*':
+        return a * c
+    print(mult())
+
+
+def div():
+    try:
+        if b == '/':
+            return a / c
+        print(div())
+    except: ZeroDivisionError
+    print('Division by zero is forbidden!')
+
+
+def exp():
+    if b == '**':
+        return a ** c
+    print(exp())
+
+
+def sqrt():
+    if b == 'sqrt':
+        return a ** (0.5)
+    print(sqrt())
+
+
 while True:
     try:
         a = int(input('Input number 1: '))
@@ -5,44 +44,6 @@ while True:
         c = int(input('Input number 2: '))
     except ValueError:
         print('enter only numbers, please')
-    except ZeroDivisionError:
-        print('Division by zero is forbidden!')
-
-
-    def summ():
-        if b == '+':
-            return a + c
-        print(summ())
-
-
-    def subtr():
-        if b == '-':
-            return a - c
-        print(subtr())
-
-
-    def mult():
-        if b == '*':
-            return a * c
-        print(mult())
-
-
-    def div():
-        if b == '/':
-            return a / c
-        print(div())
-
-
-    def exp():
-        if b == '**':
-            return a ** c
-        print(exp())
-
-
-    def sqrt():
-        if b == 'sqrt':
-            return a ** (0.5)
-        print(sqrt())
 
 
     if b == '+':
