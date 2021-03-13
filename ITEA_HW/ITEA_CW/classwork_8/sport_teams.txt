@@ -1,0 +1,3 @@
+Badgers;Snakes;3:0
+Snakes;Gnomes;1:2
+Gnomes;Snakes;1:1

@@ -1,0 +1,5 @@
+Badgers;Snakes;3:0
+Snakes;Gnomes;0:2
+Enter some string
+Spam;Eggs;3:0
+some new team
