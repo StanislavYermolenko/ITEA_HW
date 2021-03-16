@@ -8,9 +8,9 @@
 # #импортируем конкретную функцию pi из модуля math,
 # # под именем N но выполняется
 # # весь модуль, у нас есть доступ только к pi
-# from math import pi as N
-# a = 5 * N
-# print(a)
+from math import pi as N
+a = 5 * N
+print(a)
 
 from my_package.f import bar
 

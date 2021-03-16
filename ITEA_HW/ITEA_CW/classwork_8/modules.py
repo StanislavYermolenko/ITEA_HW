@@ -12,14 +12,33 @@
 import calc
 
 
-def example(x):
-    return x + 1
+def factorial(n):
+    r = 1
+    for i in range(1, n + 1):
+        r *= i
+    return r
 
+
+def get_handle():
+    handle = input('Enter Twitter username: ')
+    return handle
+
+
+if __name__ == '__main__':
+    h = get_handle()
+    lenght = len(h)
+    print('Username has', lenght, 'characters')
+
+if __name__ == '__main__':
+    def example(x):
+        return x + 1
+
+
+    print(example(5))
 
 if __name__ == '__main__':
     a = calc.my_sum(1, 6)
     print(a)
-# модуль берет имя файла потому что мы его импортируем
+    # модуль берет имя файла потому что мы его импортируем
 
     print(example(10))
-
