@@ -3,7 +3,7 @@ class Bank:
         self.client_balance = 0
         self.client_name = 'stranger'
 
-    def change_balance(self, value):
+    def __change_balance__(self, value):
         self.client_balance += value
         print(f'\n{self.client_name} has {self.client_balance} dollars on his account')
 
