@@ -7,7 +7,7 @@ class Bank:
         self.client_balance += value
         print(f'\n{self.client_name} has {self.client_balance} dollars on his account')
 
-    @staticmethod      
+    @staticmethod      # Michail, this propose of IDE, why it work only in such way????
     def check_input_and_convert(value):
         try:
             value = int(value)
@@ -97,7 +97,7 @@ Your balance is: {self.client_balance} dollars. Do you want to take less?
                 )
                 if self.check_input_and_convert(new_try) == 1:
                     self.top_up()
-                self.top_up()
+                #self.top_up()
         elif operations == 3:
             self.close_account()
         self.operation_with_money()
@@ -113,3 +113,4 @@ Took your {self.client_balance} dollars and your certificate of account closure.
 
 client1 = Bank()
 client1.welcome()
+
